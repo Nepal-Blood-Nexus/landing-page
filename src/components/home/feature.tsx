@@ -42,7 +42,7 @@ const HomeFeature: FC = () => {
         <Grid container spacing={3}>
           <Grid item xs={12} md={5}>
             <Box sx={{ position: 'relative' }}>
-              <Image src="/images/home-feature.png" width={650} height={678} quality={97} alt="Feature img" />
+              <Image src="/images/work.png" width={650} height={678} quality={97} alt="Feature img" />
               <Box
                 sx={{
                   position: 'absolute',
@@ -62,19 +62,19 @@ const HomeFeature: FC = () => {
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    Request Blood
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  {/* <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} /> */}
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    Find a Donor 
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Donate blood
                   </Typography>
                   <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
                 </Box>
@@ -83,7 +83,7 @@ const HomeFeature: FC = () => {
               <Box
                 sx={{
                   position: 'absolute',
-                  bottom: -12,
+                  bottom: -5,
                   left: { xs: 0, md: -24 },
                   boxShadow: 2,
                   borderRadius: 1,
@@ -153,7 +153,7 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
+              How We{' '}
               <Typography
                 component="mark"
                 sx={{
@@ -164,26 +164,25 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                Work <br />
                 <Box
                   sx={{
                     position: 'absolute',
                     top: { xs: 20, md: 28 },
                     transform: 'rotate(3deg)',
                     left: 2,
-                    '& img': { width: { xs: 140, md: 175 }, height: 'auto' },
+                    '& img': { width: { xs: 140, md: 120 }, height: 'auto' },
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Enjoyable
+              {/* Enhancing Blood Donation Through Technology */}
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+            Utilizing cutting-edge tech, we streamline registration, matching, and secure communication, while providing insightful blood report analyses, revolutionizing blood donation for efficiency and impact.
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>

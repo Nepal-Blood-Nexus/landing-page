@@ -1,8 +1,11 @@
 import React, { ReactNode } from 'react'
-import ArtTrackIcon from '@mui/icons-material/ArtTrack'
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney'
-import LocalLibraryIcon from '@mui/icons-material/LocalLibrary'
-import ContactSupportIcon from '@mui/icons-material/ContactSupport'
+import ArtTrackIcon from '@mui/icons-material/AccountBox'
+import AttachMoneyIcon from '@mui/icons-material/Sync'
+import LocalLibraryIcon from '@mui/icons-material/ChatBubble'
+import ContactSupportIcon from '@mui/icons-material/MedicalInformation'
+import CommunityIcon from '@mui/icons-material/VolunteerActivism'
+
+
 
 interface Data {
   title: string
@@ -12,23 +15,29 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Registration',
+    description: 'Our streamlined process efficiently gathers donor information, facilitating quick onboarding for seamless matching.',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Real-Time Matching',
+    description: 'Advanced algorithms swiftly pair donors with recipients based on factors like blood type, location, and availability, reducing response times in emergencies.',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Secure Communication',
+    description: 'Robust encryption ensures privacy in all interactions between donors, recipients, and healthcare providers, fostering trust within our platform.',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Blood Report Insights',
+    description: 'Providing personalized health assessments for donors and detailed analyses for healthcare professionals, aiding informed decisions in medical care.',
     icon: <ContactSupportIcon />,
   },
+  {
+    title: 'Community Engagement',
+    description: 'Through awareness campaigns and volunteer opportunities, we foster a supportive community, amplifying the impact of blood donation and saving lives.',
+    icon: <CommunityIcon />,
+  },
 ]
+
