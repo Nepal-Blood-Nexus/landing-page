@@ -15,7 +15,7 @@ const TestimonialItem: FC<Props> = ({ item }) => {
         <Typography component="h2" variant="h4" sx={{ mb: 2 }}>
           {item.title}
         </Typography>
-        <Typography sx={{ mb: 2, color: 'text.secondary' }}>{item.content}</Typography>
+        <Typography sx={{ mb: 2, color: 'gray' }}>{item.content}</Typography>
       </Box>
       <Box
         sx={{
