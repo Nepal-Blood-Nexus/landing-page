@@ -94,16 +94,32 @@ const HomePopularCourse: FC = () => {
           <Grid item xs={12} md={3}>
             <Box
               sx={{
-                height: '100%',
-                width: { xs: '100%', md: '90%' },
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: { xs: 'center', md: 'flex-start' },
+                // height: '100%',
+                // width: { xs: '100%', md: '90%' },
+                // display: 'flex',
+                // alignItems: 'center',
+                // justifyContent: { xs: 'center', md: 'flex-start' },
+                position: 'relative',
+                fontSize: { xs: 40, md: 50 },
+                ml: { xs: 20, md: 4 },
+                mt: 2,
+                mb: 3,
+                lineHeight: 1,
+                fontWeight: 'bold',
               }}
             >
-              <Typography variant="h1" sx={{ mt: { xs: 0, md: -5 }, fontSize: { xs: 30, md: 48 } }}>
-                Most Popular Courses
+              <Typography variant="h1" sx={{ mt: { xs: 0, md: -5}, fontSize: { xs: 30, md: 48 } , display:'inline'}}>
+              Drop Of Hope:
               </Typography>
+              {/* <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
+              Drop of hope
+            </Typography> */}
+             <Typography sx={{ color: 'text.secondary', fontSize: { xs: 30, md: 20 }, mb: 2, ml: { xs: 0, md: 1 } }}>
+             Join Our Blood Donation Campaign
+            </Typography>
+       
+           
+             
             </Box>
           </Grid>
 

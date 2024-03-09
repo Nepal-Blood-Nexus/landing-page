@@ -3,62 +3,62 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: 'Hemoglobin A1c (HbA1c)',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'Diabetes is a chronic condition characterized by high levels of glucose (sugar) in the blood. It occurs when the body either doesnot produce enough insulin or can not effectively use the insulin it produces, leading to serious health complications if left untreated.',
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
-      photo: '1.jpg',
+      name: 'Diabetes',
+      // professional: 'UI/UX Engineer',
+      photo: 'diabetess.png',
     },
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Leukocyte count',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'White blood cell count, also known as leukocyte count, measures the number of white blood cells in a sample of blood. It is an important indicator of the body immune system function and can help diagnose infections, inflammation, and certain medical conditions.',
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
-      photo: '2.jpg',
+      name: 'WBC Count',
+      // professional: 'Software Engineer',
+      photo: 'wbc.png',
     },
   },
   {
     id: 3,
-    title: 'Very complete class',
+    title: 'Erythrocyte count',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Red blood cell count, or erythrocyte count, assesses the number of red blood cells in a given volume of blood. This count is crucial for evaluating oxygen transport efficiency and diagnosing various types of anemia and other blood disorders.  ',
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
-      photo: '3.jpg',
+      name: 'RBC Count',
+      // professional: 'FullStack Designer',
+      photo: 'rbc.png',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'Platelet Count',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Platelets are crucial for blood clotting, preventing excessive bleeding, and maintaining vascular integrity. Abnormal platelet counts can indicate various conditions, including thrombocytopenia or thrombocytosis.      ',
     user: {
       id: 1,
-      name: 'Diana Jordan',
-      professional: 'SEO Expert',
-      photo: '4.jpg',
+      name: 'Mean platelet volume(MPV)',
+      // professional: 'SEO Expert',
+      photo: 'platelet.png',
     },
   },
   {
     id: 5,
-    title: 'Detailed learning materials',
+    title: 'Lipid Panel',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'Cholesterol is a fatty substance found in the blood, essential for building cell membranes and producing hormones. While necessary for bodily functions, high levels of cholesterol can lead to plaque buildup in arteries, increasing the risk of heart disease and stroke. ',
     user: {
       id: 1,
-      name: 'Ashley Graham',
-      professional: 'Back-End Developer',
-      photo: '5.jpg',
+      name: 'Cholesterol test',
+      // professional: 'Back-End Developer',
+      photo: 'fat.png',
     },
   },
 ]
