@@ -29,7 +29,7 @@ const HomeNewsLetter: FC = () => {
         <Box
         
           sx={{
-            backgroundColor: 'secondary.main',
+           
             borderRadius: 10,
             py: { xs: 4, md: 10 },
             px: { xs: 4, md: 8 },
@@ -37,7 +37,7 @@ const HomeNewsLetter: FC = () => {
           }}
         >
           {/* <Image src="/images/work.png" width={650} height={678} quality={97} alt="Feature img" /> */}
-          <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
+          <Typography variant="h1" component="h2" color={'secondary.main'} sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
             Subscribe to Our News Letter
           </Typography>
           <Typography sx={{ mb: 6 }}>Subscribe to our newsletter to get our events information.</Typography>
@@ -54,13 +54,15 @@ const HomeNewsLetter: FC = () => {
           >
             <InputBase
               sx={{
-                backgroundColor: 'background.paper',
+                // backgroundColor: 'background.paper',
                 borderRadius: 3,
                 width: '100%',
                 height: 48,
                 px: 2,
                 mr: { xs: 0, md: 3 },
                 mb: { xs: 2, md: 0 },
+                border:'1px solid',
+                borderColor:'secondary.main'
               }}
               placeholder="Enter your Email Address"
             />
