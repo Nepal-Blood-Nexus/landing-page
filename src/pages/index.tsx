@@ -2,7 +2,7 @@ import React from 'react'
 import dynamic from 'next/dynamic'
 import { NextPageWithLayout } from '@/interfaces/layout'
 import { MainLayout } from '@/components/layout'
-import { GetServerSideProps, InferGetServerSidePropsType } from 'next'
+// import { GetServerSideProps, InferGetServerSidePropsType } from 'next'
 // import { HomeFeature, HomeHero, HomePopularCourse, HomeTestimonial, HomeOurMentors, DynamicHomeNewsLetter } from '@/components/home'
 
 const DynamicHomeHero = dynamic(() => import('../components/home/hero'))

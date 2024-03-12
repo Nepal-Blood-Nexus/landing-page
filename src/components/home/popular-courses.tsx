@@ -91,7 +91,7 @@ const HomePopularCourse: FC = () => {
     >
       <Container maxWidth="lg">
         <Grid container spacing={2}>
-          <Grid item xs={12} md={3}>
+          <Grid item xs={12} md={3} alignSelf={"center"}>
             <Box
               sx={{
                 // height: '100%',
@@ -109,7 +109,7 @@ const HomePopularCourse: FC = () => {
               }}
             >
               <Typography variant="h1" sx={{ mt: { xs: 0, md: -5}, fontSize: { xs: 30, md: 48 } , display:'inline'}}>
-              Drop Of Hope:
+              Drop Of Hope
               </Typography>
               {/* <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
               Drop of hope

@@ -118,7 +118,7 @@ const HomeTestimonial: FC = () => {
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
             <Box sx={{ width: { xs: '100%', md: '90%' }, marginLeft: 'auto'}}>
               {/* <Image src="/images/home-testimonial.png" width={520} height={540} quality={97} alt="Testimonial img" /> */}
-              <video controls width="auto" height="485">
+              <video width="auto" height="485" autoPlay >
               <source src="/images/blood.mp4" type="video/mp4" />
                
               </video>
