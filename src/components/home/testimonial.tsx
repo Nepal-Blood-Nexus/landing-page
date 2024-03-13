@@ -46,6 +46,7 @@ const SliderArrow: FC<SliderArrowArrow> = (props) => {
 const StyledSlickContainer = styled('div')(() => ({
   position: 'relative',
 
+
   '& .slick-list': { marginLeft: '-30px', marginBottom: '24px' },
 }))
 
@@ -63,22 +64,23 @@ const HomeTestimonial: FC = () => {
   }
 
   return (
-    <Box id="testimonial" sx={{ pb: { xs: 6, md: 10 }, backgroundColor: 'background.paper' }}>
-      <Container>
+    <Box id="testimonial" sx={{ pb: { xs: 6, md: 10 }, backgroundColor: 'background.paper'}}>
+      <Container sx={{ backgroundImage: `url('/images/testimonial.png')`, backgroundSize: 'cover' }}>
         <Grid container spacing={5}>
           <Grid item xs={12} md={6}>
             <Typography
               component="h2"
               sx={{
                 position: 'relative',
-                fontSize: { xs: 36, md: 46 },
+                fontSize: { xs: 40, md: 46 },
                 mt: { xs: 0, md: 7 },
                 mb: 4,
                 lineHeight: 1,
                 fontWeight: 'bold',
+                color: '#ffffff',
               }}
             >
-              Testimonial What our{' '}
+              Get Insights From Your{' '}
               <Typography
                 component="mark"
                 sx={{
@@ -89,7 +91,7 @@ const HomeTestimonial: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Students{' '}
+                {/* Students{' '}
                 <Box
                   sx={{
                     position: 'absolute',
@@ -97,12 +99,12 @@ const HomeTestimonial: FC = () => {
                     left: 2,
                     '& img': { width: { xs: 130, md: 175 }, height: 'auto' },
                   }}
-                >
+                > */}
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/images/headline-curve.svg" alt="Headline curve" />
-                </Box>
+                  {/* <img src="/images/headline-curve.svg" alt="Headline curve" />
+                </Box> */}
               </Typography>
-              Say
+              Blood Report
             </Typography>
 
             <StyledSlickContainer>
@@ -114,8 +116,12 @@ const HomeTestimonial: FC = () => {
             </StyledSlickContainer>
           </Grid>
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
-            <Box sx={{ width: { xs: '100%', md: '90%' } }}>
-              <Image src="/images/home-testimonial.png" width={520} height={540} quality={97} alt="Testimonial img" />
+            <Box sx={{ width: { xs: '100%', md: '90%' }, marginLeft: 'auto'}}>
+              {/* <Image src="/images/home-testimonial.png" width={520} height={540} quality={97} alt="Testimonial img" /> */}
+              <video width="auto" height="485" autoPlay >
+              <source src="/images/blood.mp4" type="video/mp4" />
+               
+              </video>
             </Box>
           </Grid>
         </Grid>

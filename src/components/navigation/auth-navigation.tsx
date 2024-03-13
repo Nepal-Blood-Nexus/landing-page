@@ -1,14 +1,14 @@
 import React, { FC } from 'react'
 import Box from '@mui/material/Box'
 import { StyledButton } from '@/components/styled-button'
-import { useRouter } from "next/router"
+import Link from 'next/link'
 
 const AuthNavigation: FC = () => {
-  const router = useRouter()
   return (
     <Box sx={{ '& button:first-child': { mr: 2 } }}>
-      <StyledButton disableHoverEffect={true} variant="outlined" onClick = {() => router.push("/signin")}  >
-        Sign In
+      <StyledButton disableHoverEffect={true} variant="outlined">
+        <Link href={"/login"} >Sign In</Link>
+        
       </StyledButton>
       <StyledButton disableHoverEffect={true}>Sign Up</StyledButton>
     </Box>
