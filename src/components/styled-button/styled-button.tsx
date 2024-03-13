@@ -163,13 +163,13 @@ const StyledButton: FC<Props> = (props: Props) => {
   return (
     <StyledButtonRoot onClick={onClick} disableHoverEffect={disableHoverEffect} {...rest}>
       {startIcon && (
-        <Box component="span" sx={{ display: 'inherit', mr: 1, ml: -0.5 }}>
+        <Box component="span" sx={{ display: 'inherit', }}>
           {startIcon}
         </Box>
       )}
-      <Box component="span">{children}</Box>
+      <Box component="span" textAlign={"center"}>{children}</Box>
       {endIcon && (
-        <Box component="span" sx={{ display: 'inherit', ml: 1, mr: -0.5 }}>
+        <Box component="span" sx={{ display: 'inherit' }}>
           {endIcon}
         </Box>
       )}

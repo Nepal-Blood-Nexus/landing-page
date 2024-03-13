@@ -4,10 +4,9 @@ import { NextPageWithLayout } from '@/interfaces/layout'
 import { Box, InputBase, Typography } from '@mui/material'
 import Image from 'next/image'
 import image from '../../public/images/image.png'
-import Link from 'next/link'
 import { Logo } from '@/components/logo'
 
-const SignIn: NextPageWithLayout = () => {
+const ForgetPassword: NextPageWithLayout = () => {
   return (
     <>
       <div
@@ -58,7 +57,7 @@ const SignIn: NextPageWithLayout = () => {
               }}
             >
               {/* <Typography variant="h1" component={'h1'}>
-                Sign In to NBN
+               Reset Your Password
               </Typography> */}
               <Logo />
               <div
@@ -97,7 +96,7 @@ const SignIn: NextPageWithLayout = () => {
               </StyledButton> */}
                   </Box>
                 </Box>
-                <Box
+                {/* <Box
                   sx={{
                     display: 'flex',
                     alignItems: 'center',
@@ -120,7 +119,7 @@ const SignIn: NextPageWithLayout = () => {
                     placeholder="Enter your Password"
                   />
                   <Box></Box>
-                </Box>
+                </Box> */}
 
                 <Box sx={{
                   display:"flex",
@@ -131,14 +130,10 @@ const SignIn: NextPageWithLayout = () => {
                  textUnderlineOffset:"2px"
 
                 }}>
-                  <StyledButton disableHoverEffect size="medium">
-                    Login
+                  <StyledButton disableHoverEffect size="large">
+                    Reset Password
                   </StyledButton>
-                  <Typography>
-                    <Link href = "forget-password" >
-                    Forget Your Password?
-                    </Link>
-                    </Typography>
+                  {/* <Typography>Forget Your Password?</Typography> */}
                 </Box>
               </div>
             </Box>
@@ -149,6 +144,6 @@ const SignIn: NextPageWithLayout = () => {
   )
 }
 
-// SignIn.getLayout = (page) => <MainLayout>{page}</MainLayout>
+// ForgetPassword.getLayout = (page) => <MainLayout>{page}</MainLayout>
 
-export default SignIn
+export default ForgetPassword
