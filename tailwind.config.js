@@ -1,4 +1,8 @@
-const { fontFamily } = require("tailwindcss/defaultTheme")
+// const { fontFamily } = require("tailwindcss/defaultTheme")
+/**
+ * @Rijju
+ * default themes are supported by default you don't need to import anything
+ */
  
 /** @type {import('tailwindcss').Config} */
 module.exports = {

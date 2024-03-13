@@ -7,14 +7,14 @@ export const navigations: Navigation[] = [
   },
   {
     label: 'About Us',
-    path: 'about-us', // '/popular-course',
+    path: '#', // '/popular-course',
   },
   {
     label: 'Events',
-    path: 'events', // '/testimonial',
+    path: '#', // '/testimonial',
   },
   {
     label: 'Blogs',
-    path: 'blogs', // '/mentors',
+    path: '#', // '/mentors',
   },
 ]

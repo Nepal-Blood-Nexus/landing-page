@@ -9,7 +9,7 @@ interface Props {
 
 const MainLayout: FC<Props> = ({ children }) => {
   return (
-    <Box component="main">
+    <Box component="main" className='grid grid-rows-[auto_1fr_auto] min-h-screen h-full'>
       <Header />
       {children}
       <Footer />
