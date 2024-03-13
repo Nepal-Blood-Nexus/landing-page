@@ -7,8 +7,14 @@ import Image from 'next/image'
 const SignIn: NextPageWithLayout = () => {
   return (
     <>
-      <div className=" grid grid-cols-[1fr_1fr] min-h-screen">
-        <div className=" relative">
+      <div className=" grid grid-cols-[1fr_1fr] min-h-screen" style={{
+        display:"grid",
+        gridTemplateColumns:"1fr 1fr",
+        minHeight:"100vh"
+      }} >
+        <div className=" relative" style={{
+          position:"relative"
+        }}>
           <Image
             src={
               'https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -16,9 +22,17 @@ const SignIn: NextPageWithLayout = () => {
             alt="unsplash-image"
             layout="fill"
             className=" px-2 py-2"
+            style={{
+              padding:"8px",
+              
+            }}
           />
         </div>
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center' style={{
+          display:"flex",
+          flexDirection:"column",
+          justifyContent:"center"
+        }}>
           <form action="" >
             <Box sx={{
                 display:"flex",
@@ -28,12 +42,16 @@ const SignIn: NextPageWithLayout = () => {
                 mx:"auto",
                 justifyContent:"center",
                 gap:"10px"
-            }}>
+            }} >
 
             <Typography variant="h1" component={'h1'}>
               Sign In to NBN
             </Typography>
-            <div className=" flex flex-col gap-2">
+            <div className=" flex flex-col gap-2" style={{
+              display:"flex",
+              flexDirection:"column",
+              gap:"8px"
+            }}>
               <Box
                 sx={{
                   display: 'flex',
@@ -43,6 +61,7 @@ const SignIn: NextPageWithLayout = () => {
                   width: { xs: '100%', md: 560 },
                   mx: 'auto',
                 }}
+
               >
                 <InputBase
                   sx={{
@@ -92,7 +111,7 @@ const SignIn: NextPageWithLayout = () => {
               }}>
 
               <StyledButton disableHoverEffect size="large">
-                Subscribe
+                Login
               </StyledButton>
               </Box>
             </div>
