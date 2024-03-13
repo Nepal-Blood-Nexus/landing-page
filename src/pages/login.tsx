@@ -3,6 +3,7 @@ import { StyledButton } from '@/components/styled-button'
 import { NextPageWithLayout } from '@/interfaces/layout'
 import { Box, InputBase, Typography } from '@mui/material'
 import Image from 'next/image'
+// import image from "../../public/images/image.png"
 
 const SignIn: NextPageWithLayout = () => {
   return (
@@ -16,9 +17,7 @@ const SignIn: NextPageWithLayout = () => {
           position:"relative"
         }}>
           <Image
-            src={
-              'https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-            }
+  src={"/images/image.png"}
             alt="unsplash-image"
             layout="fill"
             className=" px-2 py-2"
