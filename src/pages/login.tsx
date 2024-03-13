@@ -3,27 +3,28 @@ import { StyledButton } from '@/components/styled-button'
 import { NextPageWithLayout } from '@/interfaces/layout'
 import { Box, InputBase, Typography } from '@mui/material'
 import Image from 'next/image'
-// import image from "../../public/images/image.png"
+import image from "../../public/images/image.png"
 
 const SignIn: NextPageWithLayout = () => {
   return (
     <>
-      <div className=" grid grid-cols-[1fr_1fr] min-h-screen" style={{
+      <div className=" grid grid-cols-[2fr_1fr] min-h-screen" style={{
         display:"grid",
-        gridTemplateColumns:"1fr 1fr",
+        gridTemplateColumns:"0.8fr 1fr",
         minHeight:"100vh"
       }} >
         <div className=" relative" style={{
-          position:"relative"
+          position:"relative",
+          maxHeight:"100vh"
         }}>
           <Image
-  src={"/images/image.png"}
+  src={image}
             alt="unsplash-image"
             layout="fill"
             className=" px-2 py-2"
             style={{
               padding:"8px",
-              
+              objectFit:"cover"
             }}
           />
         </div>
