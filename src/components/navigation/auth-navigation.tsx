@@ -6,11 +6,11 @@ import Link from 'next/link'
 const AuthNavigation: FC = () => {
   return (
     <Box sx={{ '& button:first-child': { mr: 2 } }}>
-      <StyledButton disableHoverEffect={true} variant="outlined">
+      {/* <StyledButton disableHoverEffect={true} variant="outlined">
         <Link href={"/login"} >Sign In</Link>
         
       </StyledButton>
-      <StyledButton disableHoverEffect={true}>Sign Up</StyledButton>
+      <StyledButton disableHoverEffect={true}>Sign Up</StyledButton> */}
     </Box>
   )
 }

@@ -93,8 +93,9 @@ const HomeHero: FC = () => {
                         '& img': { width: { xs: 146, md: 210 }, height: 'auto' },
                       }}
                     >
-                      {/* eslint-disable-next-line */}
-                      <img src="/images/headline-curve.svg" alt="Headline curve" />
+                  
+                    <Image  src={"/images/headline-curve.svg"} alt='curve' />
+                      {/* <img src="/images/headline-curve.svg" alt="Headline curve" /> */}
                     </Box>
                   </Typography>
                    
@@ -114,7 +115,7 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Life
+                    Blood
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
