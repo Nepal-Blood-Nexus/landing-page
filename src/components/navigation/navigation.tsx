@@ -45,7 +45,7 @@ const Navigation: FC = () => {
           <Box
             sx={{
               position: 'absolute',
-              top: 12,
+              top: 19,
               transform: 'rotate(3deg)',
               '& img': { width: 44, height: 'auto' },
             }}

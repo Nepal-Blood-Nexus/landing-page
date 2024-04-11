@@ -20,6 +20,7 @@ const SignIn: NextPageWithLayout = () => {
   src={"/images/image.png"}
             alt="unsplash-image"
             layout="fill"
+            objectFit='cover'
             className=" px-2 py-2"
             style={{
               padding:"8px",
