@@ -58,13 +58,13 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
                     Request Blood
                   </Typography>
-                  {/* <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} /> */}
+                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
@@ -103,10 +103,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  {/* <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography> */}
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
-                  </Typography>
+Success Rate                  </Typography>
                   <Box
                     sx={{
                       height: 85,
@@ -168,7 +167,7 @@ const HomeFeature: FC = () => {
                 <Box
                   sx={{
                     position: 'absolute',
-                    top: { xs: 20, md: 28 },
+                    top: { xs: 20, md: 48 },
                     transform: 'rotate(3deg)',
                     left: 2,
                     '& img': { width: { xs: 140, md: 120 }, height: 'auto' },

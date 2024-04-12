@@ -87,15 +87,15 @@ const HomeHero: FC = () => {
                     <Box
                       sx={{
                         position: 'absolute',
-                        top: { xs: 24, md: 34 },
+                        top: { xs: 24, md: 74 },
                         left: 2,
                         transform: 'rotate(3deg)',
-                        '& img': { width: { xs: 146, md: 210 }, height: 'auto' },
+                        '& img': { width: { xs: 146, md: 310 }, height: 'auto' },
                       }}
                     >
                   
-                    <Image  src={"/images/headline-curve.svg"} alt='curve' />
-                      {/* <img src="/images/headline-curve.svg" alt="Headline curve" /> */}
+                    {/* <Image  src={"/images/headline-curve.svg"} alt='curve' layout='fill' width={300} height={200}/> */}
+                      <img src="/images/headline-curve.svg" alt="Headline curve" />
                     </Box>
                   </Typography>
                    
